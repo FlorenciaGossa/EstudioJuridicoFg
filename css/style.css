@@ -12,14 +12,65 @@
      
  }
 
+ .container2 {
+    max-width: 850px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+ 
+ /**************************** Acá empieza el header **********************************/
  .container {
-     max-width: 850px;
-     width: 85%;
-     margin: 0 auto;
-   
+    width: 95%;
+    margin: 0 auto;
+}
+ .header {
+     padding: 2rem 0;
+     background-color: black;
+     color:rgb(221, 216, 216);
+    
  }
 
- .header {
+ .header a {
+    text-decoration: none;
+    color:rgb(221, 216, 216);
+ }
+
+ .header-navigation {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;  
+     flex-direction: row;
+ }
+
+ .navigation ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .navigation ul li{
+     display: inline-block;
+ }
+
+ .navigation ul li a {
+     display: block;
+     padding: 0.5rem 1rem;
+     transition: all 0.5 linear;
+     border-radius: 4px;
+ }
+ 
+ .navigation ul li a:hover {
+     background: rgb(61, 60, 60) ;
+ }
+
+ /**************************** Acá empieza el BODY **********************************/
+
+ #titulo {
+     text-align: center;
+ }
+
+ #footer{
      background-color: black;
-     color:rgb(221, 216, 216)
+     color: rgb(221, 216, 216);
  }
