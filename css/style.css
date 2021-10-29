@@ -28,6 +28,8 @@
      padding: 2rem 0;
      background-color: black;
      color:rgb(221, 216, 216);
+     width: 100%;
+     
     
  }
 
@@ -40,7 +42,7 @@
      display: flex;
      justify-content: space-between;
      align-items: center;  
-     flex-direction: row;
+     
  }
 
  .navigation ul{
@@ -50,13 +52,13 @@
  }
 
  .navigation ul li{
-     display: inline-block;
- }
+     display: inline-block; 
+ } 
 
  .navigation ul li a {
      display: block;
      padding: 0.5rem 1rem;
-     transition: all 0.5 linear;
+     transition: all 0.8 linear;
      border-radius: 4px;
  }
  
@@ -72,5 +74,9 @@
 
  #footer{
      background-color: black;
+     width: 100%;
+     padding: 2 rem 0;
      color: rgb(221, 216, 216);
+     text-align: center;
  }
+ 
